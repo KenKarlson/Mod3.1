@@ -3,13 +3,20 @@ body {
   padding: 0;
   font-family: 'Open Sans', sans-serif;
 }
-
-.delTocart{
+button{
   padding: 4px 6px;
-  background-color: orangered;
-  border: none;
-  border-radius: 4px;
   color: #fff;
   font-weight: 600;
   cursor: pointer;
+}
+.delTocart{
+  
+  background:linear-gradient(45deg,#0a6fcd 0,#1abc9c 100%);
+  border: 1px solid #333;
+  border-radius: 4px;
+  text-shadow:1px 1px 1px rgba(117, 113, 113, 0.75)
+  
+}
+.delTocart:hover{
+  background:linear-gradient(45deg,#ea6e48 0,#bc1a63 100%);
 }
